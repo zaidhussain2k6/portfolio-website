@@ -9,8 +9,6 @@ function Navbar() {
   };
 
   return (
-    <>
-    {/* Navbar */}
 
     <nav className="mx-auto flex items-center justify-between xs:px-8 md:px-12 py-6">
 
@@ -45,33 +43,8 @@ function Navbar() {
 </div>
 
 
-{/* Responsive Navlinks */}
-
-<div className="md:hidden font-FontB font-medium text-darkblue opacity-70 text-base space-x-4 flex">
-<a href="#" className="navbar-link hover:text-liteblue hover:opacity-100 hover:underline hover:transition-all hover:duration-600">
-    Home
-  </a>
-  <a href="#" className="navbar-link hover:text-liteblue hover:opacity-100 hover:underline hover:transition-all hover:duration-600">
-    About
-  </a>
-  <a href="#" className="navbar-link hover:text-liteblue hover:opacity-100 hover:underline hover:transition-all hover:duration-600">
-    Services
-  </a>
-  <a href="#" className="navbar-link hover:text-liteblue hover:opacity-100 hover:underline hover:transition-all hover:duration-600">
-    Experience
-  </a>
-  <a href="#" className="navbar-link hover:text-liteblue hover:opacity-100 hover:underline hover:transition-all hover:duration-600">
-    Projects
-  </a>
-  <a href="#" className="navbar-link hover:text-liteblue hover:opacity-100 hover:underline hover:transition-all hover:duration-600">
-    Contact
-  </a>
-</div>
-
 </nav>
 
-    </>
   );
 }
-
 export default Navbar;

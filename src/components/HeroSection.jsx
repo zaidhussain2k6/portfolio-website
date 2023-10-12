@@ -13,7 +13,7 @@ function HeroSection() {
 
       <section className="lg:flex md:px-12 xs:px-4 justify-center items-center py-24">
       <div className="heading text-6xl text-darkblue space-y-3">
-        <h2 className="font-FontA font-semibold xs:text-center md:text-left">
+        <h2 className="font-FontA font-semibold xs:text-center md:text-left text-darkblue">
           <span className="font-FontC font-medium text-4xl">Hi,<br /></span> I am <span className="text-liteblue underline">Zaid</span> Hussain
         </h2>
         <p className="font-FontC text-lg text-gray opacity-80 font-medium xs:text-center md:text-left">

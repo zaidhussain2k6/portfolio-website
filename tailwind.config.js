@@ -13,7 +13,7 @@ export default {
     },
 
     colors: {
-      'darkblue': '#0A1931',
+      'darkblue': '#0d0d0d',
       'liteblue': '#185ADB',
       'gray': '#5D6471',
     },
@@ -31,6 +31,10 @@ export default {
           '0 35px 35px rgba(0, 0, 0, 0.25)',
           '0 45px 65px rgba(0, 0, 0, 0.15)'
       ]
+    },
+
+    rotate: {
+      '90': '-90deg',
     }
   },
   plugins: [],
