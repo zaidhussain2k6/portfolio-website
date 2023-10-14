@@ -12,7 +12,7 @@ import E from '../images/5.svg'
 
 function AboutMeSec() {
   return (
-    <div className='flex-wrap px-24 xs:gap-12 lg:gap-16 py-36 flex items-center justify-between md:gap-28'>
+    <div className='flex-wrap xs:px-4 md:px-24 xs:gap-12 lg:gap-16 py-36 flex items-center justify-between md:gap-28'>
 
     <div className='py-24 items-center flex gap-12'>
       <div>
