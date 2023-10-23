@@ -4,7 +4,7 @@ import DOT from "../images/circle.svg";
 
 function ExperienceSec() {
   return (
-    <div className="flex-wrap xs:px-4 md:px-24 xs:gap-12 lg:gap-16 py-36 flex items-center justify-between md:gap-28">
+    <div className="flex-wrap xs:px-4 md:px-24 xs:gap-12 lg:gap-16 py-32 flex items-center justify-between md:gap-28">
       <div className="inline-flex items-center flex-wrap content-center xs:gap-24 md:gap-56">
         {/* Left Side */}
 
@@ -64,7 +64,7 @@ function ExperienceSec() {
             </div>
           </div>
 
-          <div className="w-96 h-[1.5px] opacity-50 bg-gray"></div>
+          <div className="w-96 h-[1.4px] opacity-30 bg-gray"></div>
 
           <div className="flex flex-start gap-20">
             <div>

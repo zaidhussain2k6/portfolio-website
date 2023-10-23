@@ -4,6 +4,7 @@ import SkillsSection from './components/SkillSec';
 import AboutMeSec from './components/AboutMeSec';
 import Services from './components/Services.jsx'
 import ExperienceSec from './components/ExperienceSec';
+import ProjectSec from './components/ProjectSec';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <AboutMeSec/>
     <Services/>
     <ExperienceSec/>
+    <ProjectSec/>
 
 
     </>
