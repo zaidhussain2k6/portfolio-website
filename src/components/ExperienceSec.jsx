@@ -8,20 +8,20 @@ function ExperienceSec() {
       <div className="inline-flex items-center flex-wrap content-center xs:gap-24 md:gap-56">
         {/* Left Side */}
 
-        <div>
+        <div className="xs:w-8">
           <img src={MyExp} alt="" />
         </div>
 
         {/* Right Side */}
 
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col xs:px-2 gap-10">
           <div className="space-y-4">
             <div className="inline-flex items-center gap-8">
               <div>
                 <img src={DOT} alt="" />
               </div>
               <div className="">
-                <p className="font-medium text-xl">
+                <p className="font-medium md:w-auto xs:w-[290px] md:text-xl xs:w-xl">
                   UI/UX Design Intern at Indus Technetronic Pvt Ltd
                 </p>
                 <p className="font-FontC font-medium text-sm text-gray">
@@ -38,7 +38,7 @@ function ExperienceSec() {
               </div>
 
               <div>
-                <p className="font-medium text-xl">
+                <p className="font-medium md:w-auto xs:w-[300px] xs:text-lg text-xl">
                   UI/UX Designer & Frontend Developer on Fiverr
                 </p>
                 <p className="font-FontC font-medium text-sm text-gray">
@@ -54,7 +54,7 @@ function ExperienceSec() {
                 <img src={DOT} alt="" />
               </div>
               <div>
-                <p className="font-medium text-xl">
+                <p className="font-medium md:w-auto xs:w-[300px] xs:text-lg text-xl">
                   Remote UI Designer at CodSoft
                 </p>
                 <p className="font-FontC font-medium text-sm text-gray">
@@ -64,9 +64,9 @@ function ExperienceSec() {
             </div>
           </div>
 
-          <div className="w-96 h-[1.4px] opacity-30 bg-gray"></div>
+          <div className="xs:w-80 md:w-96 h-[1.4px] opacity-30 bg-gray"></div>
 
-          <div className="flex flex-start gap-20">
+          <div className="flex flex-start xs:gap-10 md:gap-20">
             <div>
               <p className="font-semibold text-lg">20 +</p>
               <p className="font-FontB text-sm text-semibold text-gray">
