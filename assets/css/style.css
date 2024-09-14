@@ -36,12 +36,12 @@ Version      : 1.0
 :root {
     --main-color: rgb(180, 180, 180);
     --heading-color: rgb(29, 29, 38);
-    --primary-color: rgb(196, 240, 0);
+    --primary-color: #0078FF;
     --lighter-color: #1F1F1F;
     --subtitle-color: rgb(119, 119, 125);
     --black-color: #070707;
-    --border-color: rgba(196, 240, 0, .6);
-    --button-border: rgb(196, 240, 0);
+    --border-color: #0078FF;
+    --button-border: #0078FF;
     --body-background: #070707;
     --white-color: #fff;
 }
